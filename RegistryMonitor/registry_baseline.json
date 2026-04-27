@@ -1,0 +1,511 @@
+{
+  "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run": {
+    "SecurityHealth": [
+      "%windir%\\system32\\SecurityHealthSystray.exe",
+      2
+    ],
+    "RtkAudUService": [
+      "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_4dab0fd1fdeb2aa1\\RtkAudUService64.exe\" -background",
+      1
+    ],
+    "Quick Heal Core UI": [
+      "\"C:\\Program Files\\Quick Heal\\Quick Heal Internet Security\\strtupap.exe\"",
+      1
+    ]
+  },
+  "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce": {
+    "Delete Cached Update Binary": [
+      "C:\\WINDOWS\\system32\\cmd.exe /q /c del /q \"C:\\Program Files\\Microsoft OneDrive\\Update\\OneDriveSetup.exe\"",
+      1
+    ],
+    "Delete Cached Standalone Update Binary": [
+      "C:\\WINDOWS\\system32\\cmd.exe /q /c del /q \"C:\\Program Files\\Microsoft OneDrive\\StandaloneUpdater\\OneDriveSetup.exe\"",
+      1
+    ]
+  },
+  "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run": {
+    "OneDrive": [
+      "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background",
+      1
+    ],
+    "uTorrent": [
+      "\"C:\\Users\\doshi\\AppData\\Roaming\\uTorrent\\uTorrent.exe\"  /MINIMIZED",
+      1
+    ],
+    "EpicGamesLauncher": [
+      "\"C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot",
+      1
+    ],
+    "Steam": [
+      "\"D:\\steam\\steam.exe\" -silent",
+      1
+    ],
+    "ut": [
+      "\"C:\\Users\\doshi\\AppData\\Roaming\\uTorrent\\uTorrent.exe\"",
+      1
+    ],
+    "BraveSoftware Update": [
+      "\"C:\\Users\\doshi\\AppData\\Local\\BraveSoftware\\Update\\1.3.361.151\\BraveUpdateCore.exe\"",
+      1
+    ],
+    "Client Authentication Agent": [
+      "\"C:\\Users\\doshi\\AppData\\Local\\Sophos\\Client Authentication Agent\\CAA.exe\" -a",
+      1
+    ],
+    "Toolkit": [
+      "C:\\Program Files (x86)\\Toolkit\\Toolkit.exe /WinStart",
+      1
+    ],
+    "Discord": [
+      "\"C:\\Users\\doshi\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe",
+      1
+    ],
+    "NVIDIA Broadcast ": [
+      "C:\\Program Files\\NVIDIA Corporation\\NVIDIA Broadcast\\NVIDIA Broadcast.exe --process-start-args \"--launch-hidden\"",
+      1
+    ],
+    "ApacheTomcatMonitor10.1_Tomcat10": [
+      "\"C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\bin\\Tomcat10w.exe\" //MS//Tomcat10",
+      1
+    ],
+    "MicrosoftEdgeAutoLaunch_ED3CAFEECB2E4BB20CF72B4856F759A5": [
+      "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --win-session-start",
+      1
+    ],
+    "New Value #1": [
+      "",
+      1
+    ]
+  },
+  "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce": {},
+  "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows Defender": {},
+  "HKLM\\SOFTWARE\\Microsoft\\Windows Defender\\Features": {
+    "TamperProtection": [
+      "1",
+      4
+    ],
+    "MpPlatformKillbitsFromEngine": [
+      "b'\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00'",
+      3
+    ],
+    "TamperProtectionSource": [
+      "5",
+      4
+    ],
+    "MpCapability": [
+      "b'\\x7f\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+      3
+    ],
+    "TPExclusions": [
+      "0",
+      4
+    ],
+    "DlpAppEnlightenmentSettings": [
+      "0",
+      4
+    ],
+    "MpPlatformKillbitsExFromEngine": [
+      "b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+      3
+    ],
+    "EnableCACS": [
+      "0",
+      4
+    ]
+  },
+  "HKLM\\SYSTEM\\CurrentControlSet\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfile": {
+    "DisableNotifications": [
+      "0",
+      4
+    ],
+    "EnableFirewall": [
+      "1",
+      4
+    ]
+  },
+  "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System": {
+    "ConsentPromptBehaviorAdmin": [
+      "5",
+      4
+    ],
+    "ConsentPromptBehaviorEnhancedAdmin": [
+      "1",
+      4
+    ],
+    "ConsentPromptBehaviorUser": [
+      "3",
+      4
+    ],
+    "DSCAutomationHostEnabled": [
+      "2",
+      4
+    ],
+    "EnableCursorSuppression": [
+      "1",
+      4
+    ],
+    "EnableFullTrustStartupTasks": [
+      "2",
+      4
+    ],
+    "EnableInstallerDetection": [
+      "1",
+      4
+    ],
+    "EnableLUA": [
+      "1",
+      4
+    ],
+    "EnableSecureUIAPaths": [
+      "1",
+      4
+    ],
+    "EnableUIADesktopToggle": [
+      "0",
+      4
+    ],
+    "EnableUwpStartupTasks": [
+      "2",
+      4
+    ],
+    "EnableVirtualization": [
+      "1",
+      4
+    ],
+    "PromptOnSecureDesktop": [
+      "1",
+      4
+    ],
+    "SupportFullTrustStartupTasks": [
+      "1",
+      4
+    ],
+    "SupportUwpStartupTasks": [
+      "1",
+      4
+    ],
+    "TypeOfAdminApprovalMode": [
+      "1",
+      4
+    ],
+    "ValidateAdminCodeSignatures": [
+      "0",
+      4
+    ],
+    "dontdisplaylastusername": [
+      "0",
+      4
+    ],
+    "legalnoticecaption": [
+      "",
+      1
+    ],
+    "legalnoticetext": [
+      "",
+      1
+    ],
+    "scforceoption": [
+      "0",
+      4
+    ],
+    "shutdownwithoutlogon": [
+      "1",
+      4
+    ],
+    "undockwithoutlogon": [
+      "1",
+      4
+    ],
+    "SlowLinkDetectEnabled": [
+      "1",
+      4
+    ],
+    "NoDispCPL": [
+      "0",
+      4
+    ]
+  },
+  "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon": {
+    "AutoRestartShell": [
+      "1",
+      4
+    ],
+    "Background": [
+      "0 0 0",
+      1
+    ],
+    "CachedLogonsCount": [
+      "10",
+      1
+    ],
+    "DebugServerCommand": [
+      "no",
+      1
+    ],
+    "DisableBackButton": [
+      "1",
+      4
+    ],
+    "EnableSIHostIntegration": [
+      "1",
+      4
+    ],
+    "ForceUnlockLogon": [
+      "0",
+      4
+    ],
+    "LegalNoticeCaption": [
+      "",
+      1
+    ],
+    "LegalNoticeText": [
+      "",
+      1
+    ],
+    "PasswordExpiryWarning": [
+      "5",
+      4
+    ],
+    "PowerdownAfterShutdown": [
+      "0",
+      1
+    ],
+    "PreCreateKnownFolders": [
+      "{A520A1A4-1780-4FF6-BD18-167343C5AF16}",
+      1
+    ],
+    "ReportBootOk": [
+      "1",
+      1
+    ],
+    "Shell": [
+      "explorer.exe",
+      1
+    ],
+    "ShellAppRuntime": [
+      "ShellAppRuntime.exe",
+      1
+    ],
+    "ShellCritical": [
+      "0",
+      4
+    ],
+    "ShellInfrastructure": [
+      "sihost.exe",
+      1
+    ],
+    "SiHostCritical": [
+      "0",
+      4
+    ],
+    "SiHostReadyTimeOut": [
+      "0",
+      4
+    ],
+    "SiHostRestartCountLimit": [
+      "0",
+      4
+    ],
+    "SiHostRestartTimeGap": [
+      "0",
+      4
+    ],
+    "VMApplet": [
+      "SystemPropertiesPerformance.exe /pagefile",
+      1
+    ],
+    "WinStationsDisabled": [
+      "0",
+      1
+    ],
+    "scremoveoption": [
+      "0",
+      1
+    ],
+    "LastLogOffEndTimePerfCounter": [
+      "440540261",
+      11
+    ],
+    "ShutdownFlags": [
+      "131123",
+      4
+    ],
+    "DisableCad": [
+      "1",
+      4
+    ],
+    "DisableLockWorkstation": [
+      "0",
+      4
+    ],
+    "USERINIT": [
+      "C:\\Windows\\system32\\userinit.exe,C:\\Program Files\\Quick Heal\\Quick Heal Internet Security\\sfmdprt.exe",
+      1
+    ],
+    "EnableFirstLogonAnimation": [
+      "1",
+      4
+    ],
+    "AutoLogonSID": [
+      "S-1-5-21-4098408511-2351152476-4107895411-1001",
+      1
+    ],
+    "LastUsedUsername": [
+      "doshi",
+      1
+    ],
+    "DefaultUserName": [
+      "doshi",
+      1
+    ],
+    "DefaultDomainName": [
+      ".",
+      1
+    ],
+    "AutoAdminLogon": [
+      "0",
+      1
+    ]
+  },
+  "HKCU\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon": {
+    "ExcludeProfileDirs": [
+      "AppData\\Local;AppData\\LocalLow;$Recycle.Bin;OneDrive;Work Folders",
+      1
+    ],
+    "PUUActive": [
+      "b'\\x8e\\xe5\\t\\xe1\\x01\\x00\\x00\\x00`\\x00\\x8e\\x00f\\x8b\\x02\\x007\\x9c\\x02\\x007\\x9c\\x02\\x00\\xd2\\x00\\x00\\x00\\x15\\x00)\\x00\\x14\\xc1\\xbb\\x19\\xf3\\xa3>\\x00\\xa5\\xd4\\x02\\x00\\x075\\x01\\x00\\x0b\\xdf\\x00\\x00WK\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00p\\xbe\\x00\\x00\\xed\\xb0\\x02\\x00\\xb9\\x1e\\x00\\x00\\xa7\\x01\\x00\\x00\\xc9\\x82\\xe7WN\\xe7\\xd8\\x01f\\x8b\\x02\\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x00\\x00f\\x8b\\x02\\x00\\xf0U\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+      3
+    ],
+    "BuildNumber": [
+      "26200",
+      4
+    ],
+    "FirstLogon": [
+      "0",
+      4
+    ],
+    "ParseAutoexec": [
+      "1",
+      1
+    ]
+  },
+  "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options": {},
+  "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Windows": {
+    "": [
+      "mnmsrvc",
+      1
+    ],
+    "AppInit_DLLs": [
+      "",
+      1
+    ],
+    "DdeSendTimeout": [
+      "0",
+      4
+    ],
+    "DesktopHeapLogging": [
+      "1",
+      4
+    ],
+    "DeviceNotSelectedTimeout": [
+      "15",
+      1
+    ],
+    "DwmInputUsesIoCompletionPort": [
+      "1",
+      4
+    ],
+    "EnableDwmInputProcessing": [
+      "7",
+      4
+    ],
+    "GDIProcessHandleQuota": [
+      "10000",
+      4
+    ],
+    "IconServiceLib": [
+      "IconCodecService.dll",
+      1
+    ],
+    "LoadAppInit_DLLs": [
+      "0",
+      4
+    ],
+    "NaturalInputHandler": [
+      "Ninput.dll",
+      1
+    ],
+    "RapidHpdTimeoutMs": [
+      "3000",
+      4
+    ],
+    "ShutdownWarningDialogTimeout": [
+      "4294967295",
+      4
+    ],
+    "Spooler": [
+      "yes",
+      1
+    ],
+    "TransmissionRetryTimeout": [
+      "90",
+      1
+    ],
+    "USERNestedWindowLimit": [
+      "50",
+      4
+    ],
+    "USERPostMessageLimit": [
+      "10000",
+      4
+    ],
+    "USERProcessHandleQuota": [
+      "10000",
+      4
+    ],
+    "Win32kLastWriteTime": [
+      "1DCCC956A195474",
+      1
+    ],
+    "LeakTrackingAllocatorMode": [
+      "0",
+      4
+    ],
+    "PoolLeakedState": [
+      "0",
+      4
+    ],
+    "LeakedPoolTag0": [
+      "0",
+      4
+    ],
+    "LeakedPoolTag1": [
+      "0",
+      4
+    ],
+    "LeakedPoolTag2": [
+      "0",
+      4
+    ],
+    "LeakedPoolTag3": [
+      "0",
+      4
+    ],
+    "LeakedPoolTag4": [
+      "0",
+      4
+    ],
+    "LeakedPoolTag5": [
+      "0",
+      4
+    ],
+    "LeakedPoolTag6": [
+      "0",
+      4
+    ],
+    "LeakedPoolTag7": [
+      "0",
+      4
+    ]
+  }
+}

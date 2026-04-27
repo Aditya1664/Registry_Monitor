@@ -1,0 +1,168 @@
+[2026-03-29 19:08:55] [WARN]  No baseline found – creating one now.
+[2026-03-29 19:08:55] [INFO]  Baseline created → registry_baseline.json
+[2026-03-29 19:09:02] [INFO]  Baseline created → registry_baseline.json
+[2026-03-29 19:11:05] [INFO]  ─── Malware-Pattern Scan ───────────────────────────────
+[2026-03-29 19:11:05] [ALERT]  [MALWARE-PATTERN] HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon → Shell = 'explorer.exe'  (Shell replacement detected – possible hijack)
+[2026-03-29 19:13:00] [INFO]  Baseline created → registry_baseline.json
+[2026-03-29 19:13:03] [INFO]  Baseline created → registry_baseline.json
+[2026-03-29 19:13:07] [INFO]  ─── Integrity Check ───────────────────────────────────
+[2026-03-29 19:13:07] [INFO]  Integrity check PASSED – no changes detected.
+[2026-03-29 19:13:11] [INFO]  ─── Autorun Detection ─────────────────────────────────
+[2026-03-29 19:13:11] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [SecurityHealth] = %windir%\system32\SecurityHealthSystray.exe
+[2026-03-29 19:13:11] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [RtkAudUService] = "C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_4dab0fd1fdeb2aa1\RtkAudUService64.exe" -background
+[2026-03-29 19:13:11] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Quick Heal Core UI] = "C:\Program Files\Quick Heal\Quick Heal Internet Security\strtupap.exe"
+[2026-03-29 19:13:11] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce: Autorun → [Delete Cached Update Binary] = C:\WINDOWS\system32\cmd.exe /q /c del /q "C:\Program Files\Microsoft OneDrive\Update\OneDriveSetup.exe"
+[2026-03-29 19:13:11] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce: Autorun → [Delete Cached Standalone Update Binary] = C:\WINDOWS\system32\cmd.exe /q /c del /q "C:\Program Files\Microsoft OneDrive\StandaloneUpdater\OneDriveSetup.exe"
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [OneDrive] = "C:\Program Files\Microsoft OneDrive\OneDrive.exe" /background
+[2026-03-29 19:13:11] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [uTorrent] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  /MINIMIZED  ← SUSPICIOUS PATH
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [EpicGamesLauncher] = "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent -launchcontext=boot
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Steam] = "D:\steam\steam.exe" -silent
+[2026-03-29 19:13:11] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ut] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  ← SUSPICIOUS PATH
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [BraveSoftware Update] = "C:\Users\doshi\AppData\Local\BraveSoftware\Update\1.3.361.151\BraveUpdateCore.exe"
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Client Authentication Agent] = "C:\Users\doshi\AppData\Local\Sophos\Client Authentication Agent\CAA.exe" -a
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Toolkit] = C:\Program Files (x86)\Toolkit\Toolkit.exe /WinStart
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Discord] = "C:\Users\doshi\AppData\Local\Discord\Update.exe" --processStart Discord.exe
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [NVIDIA Broadcast ] = C:\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NVIDIA Broadcast.exe --process-start-args "--launch-hidden"
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ApacheTomcatMonitor10.1_Tomcat10] = "C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin\Tomcat10w.exe" //MS//Tomcat10
+[2026-03-29 19:13:11] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [MicrosoftEdgeAutoLaunch_ED3CAFEECB2E4BB20CF72B4856F759A5] = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+[2026-03-29 19:13:20] [INFO]  Use option 5 to generate a full report after a monitor session.
+[2026-03-29 19:13:31] [INFO]  Starting continuous monitor  |  interval=10s  |  cycles=5
+[2026-03-29 19:13:31] [INFO]  ── Scan cycle #1 ──────────────────────────────────────
+[2026-03-29 19:13:31] [INFO]    No changes in this cycle.
+[2026-03-29 19:13:41] [INFO]  ── Scan cycle #2 ──────────────────────────────────────
+[2026-03-29 19:13:41] [INFO]    No changes in this cycle.
+[2026-03-29 19:13:51] [INFO]  ── Scan cycle #3 ──────────────────────────────────────
+[2026-03-29 19:13:51] [INFO]    No changes in this cycle.
+[2026-03-29 19:14:01] [INFO]  ── Scan cycle #4 ──────────────────────────────────────
+[2026-03-29 19:14:01] [INFO]    No changes in this cycle.
+[2026-03-29 19:14:11] [INFO]  ── Scan cycle #5 ──────────────────────────────────────
+[2026-03-29 19:14:11] [INFO]    No changes in this cycle.
+[2026-03-29 19:14:11] [INFO]  Report saved → registry_report.csv  (0 record(s))
+[2026-03-29 19:15:48] [INFO]  Exiting. Goodbye.
+[2026-04-09 10:01:08] [INFO]  Baseline loaded ← registry_baseline.json
+[2026-04-09 10:01:39] [INFO]  Baseline created → registry_baseline.json
+[2026-04-09 10:02:08] [INFO]  ─── Autorun Detection ─────────────────────────────────
+[2026-04-09 10:02:08] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [SecurityHealth] = %windir%\system32\SecurityHealthSystray.exe
+[2026-04-09 10:02:08] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [RtkAudUService] = "C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_4dab0fd1fdeb2aa1\RtkAudUService64.exe" -background
+[2026-04-09 10:02:08] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Quick Heal Core UI] = "C:\Program Files\Quick Heal\Quick Heal Internet Security\strtupap.exe"
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [OneDrive] = "C:\Program Files\Microsoft OneDrive\OneDrive.exe" /background
+[2026-04-09 10:02:08] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [uTorrent] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  /MINIMIZED  ← SUSPICIOUS PATH
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [EpicGamesLauncher] = "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent -launchcontext=boot
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Steam] = "D:\steam\steam.exe" -silent
+[2026-04-09 10:02:08] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ut] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  ← SUSPICIOUS PATH
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [BraveSoftware Update] = "C:\Users\doshi\AppData\Local\BraveSoftware\Update\1.3.361.151\BraveUpdateCore.exe"
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Client Authentication Agent] = "C:\Users\doshi\AppData\Local\Sophos\Client Authentication Agent\CAA.exe" -a
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Toolkit] = C:\Program Files (x86)\Toolkit\Toolkit.exe /WinStart
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Discord] = "C:\Users\doshi\AppData\Local\Discord\Update.exe" --processStart Discord.exe
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [NVIDIA Broadcast ] = C:\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NVIDIA Broadcast.exe --process-start-args "--launch-hidden"
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ApacheTomcatMonitor10.1_Tomcat10] = "C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin\Tomcat10w.exe" //MS//Tomcat10
+[2026-04-09 10:02:08] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [MicrosoftEdgeAutoLaunch_ED3CAFEECB2E4BB20CF72B4856F759A5] = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+[2026-04-09 10:03:06] [INFO]  ─── Malware-Pattern Scan ───────────────────────────────
+[2026-04-09 10:03:06] [ALERT]  [MALWARE-PATTERN] HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon → Shell = 'explorer.exe'  (Shell replacement detected – possible hijack)
+[2026-04-09 10:07:49] [INFO]  ─── Integrity Check ───────────────────────────────────
+[2026-04-09 10:07:49] [ALERT]  Integrity check FAILED – 1 change(s) detected.
+[2026-04-09 10:07:49] [WARN]    [ADDED] HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\TestEntry  | old='' → new='C:\\Windows\\notepad.exe'
+[2026-04-09 10:07:49] [INFO]  Report saved → registry_report.csv  (1 record(s))
+[2026-04-09 10:08:07] [INFO]  ─── Integrity Check ───────────────────────────────────
+[2026-04-09 10:08:07] [ALERT]  Integrity check FAILED – 1 change(s) detected.
+[2026-04-09 10:08:07] [WARN]    [ADDED] HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\TestEntry  | old='' → new='C:\\Windows\\notepad.exe'
+[2026-04-09 10:08:07] [INFO]  Report saved → registry_report.csv  (1 record(s))
+[2026-04-09 10:08:50] [INFO]  Starting continuous monitor  |  interval=30s  |  cycles=3
+[2026-04-09 10:08:50] [INFO]  ── Scan cycle #1 ──────────────────────────────────────
+[2026-04-09 10:08:50] [WARN]    [ADDED] HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\TestEntry  old='' → new='C:\\Windows\\notepad.exe'
+[2026-04-09 10:09:20] [INFO]  ── Scan cycle #2 ──────────────────────────────────────
+[2026-04-09 10:09:20] [INFO]    No changes in this cycle.
+[2026-04-09 10:09:50] [INFO]  ── Scan cycle #3 ──────────────────────────────────────
+[2026-04-09 10:09:50] [INFO]    No changes in this cycle.
+[2026-04-09 10:09:50] [INFO]  Report saved → registry_report.csv  (1 record(s))
+[2026-04-09 10:10:59] [INFO]  Baseline SHA-256: c02b4e7a8a8632536ec5e23be8f8300c2d2257c6a5264c3dc0dec771cd12e18b
+[2026-04-09 10:40:24] [INFO]  Exiting. Goodbye.
+[2026-04-26 20:51:48] [INFO]  Baseline loaded ← registry_baseline.json
+[2026-04-26 20:51:53] [INFO]  Baseline created → registry_baseline.json
+[2026-04-26 20:52:00] [INFO]  ─── Autorun Detection ─────────────────────────────────
+[2026-04-26 20:52:00] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [SecurityHealth] = %windir%\system32\SecurityHealthSystray.exe
+[2026-04-26 20:52:00] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [RtkAudUService] = "C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_4dab0fd1fdeb2aa1\RtkAudUService64.exe" -background
+[2026-04-26 20:52:00] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Quick Heal Core UI] = "C:\Program Files\Quick Heal\Quick Heal Internet Security\strtupap.exe"
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [OneDrive] = "C:\Program Files\Microsoft OneDrive\OneDrive.exe" /background
+[2026-04-26 20:52:00] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [uTorrent] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  /MINIMIZED  ← SUSPICIOUS PATH
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [EpicGamesLauncher] = "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent -launchcontext=boot
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Steam] = "D:\steam\steam.exe" -silent
+[2026-04-26 20:52:00] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ut] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  ← SUSPICIOUS PATH
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [BraveSoftware Update] = "C:\Users\doshi\AppData\Local\BraveSoftware\Update\1.3.361.151\BraveUpdateCore.exe"
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Client Authentication Agent] = "C:\Users\doshi\AppData\Local\Sophos\Client Authentication Agent\CAA.exe" -a
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Toolkit] = C:\Program Files (x86)\Toolkit\Toolkit.exe /WinStart
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Discord] = "C:\Users\doshi\AppData\Local\Discord\Update.exe" --processStart Discord.exe
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [NVIDIA Broadcast ] = C:\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NVIDIA Broadcast.exe --process-start-args "--launch-hidden"
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ApacheTomcatMonitor10.1_Tomcat10] = "C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin\Tomcat10w.exe" //MS//Tomcat10
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [MicrosoftEdgeAutoLaunch_ED3CAFEECB2E4BB20CF72B4856F759A5] = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+[2026-04-26 20:52:00] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [TestEntry] = C:\Windows\notepad.exe
+[2026-04-26 20:52:11] [INFO]  ─── Malware-Pattern Scan ───────────────────────────────
+[2026-04-26 20:52:11] [ALERT]  [MALWARE-PATTERN] HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon → Shell = 'explorer.exe'  (Shell replacement detected – possible hijack)
+[2026-04-26 20:52:26] [INFO]  ─── Integrity Check ───────────────────────────────────
+[2026-04-26 20:52:26] [INFO]  Integrity check PASSED – no changes detected.
+[2026-04-26 20:52:38] [INFO]  Starting continuous monitor  |  interval=30s  |  cycles=3
+[2026-04-26 20:52:38] [INFO]  ── Scan cycle #1 ──────────────────────────────────────
+[2026-04-26 20:52:38] [WARN]    [ADDED] HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce\Delete Cached Update Binary  old='' → new='C:\\WINDOWS\\system32\\cmd.exe /q /c del /q "C:\\Program Files\\Microsoft OneDrive\\Update\\OneDriveSetup.exe"'
+[2026-04-26 20:52:38] [WARN]    [ADDED] HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce\Delete Cached Standalone Update Binary  old='' → new='C:\\WINDOWS\\system32\\cmd.exe /q /c del /q "C:\\Program Files\\Microsoft OneDrive\\StandaloneUpdater\\OneDriveSetup.exe"'
+[2026-04-26 20:53:08] [INFO]  ── Scan cycle #2 ──────────────────────────────────────
+[2026-04-26 20:53:08] [INFO]    No changes in this cycle.
+[2026-04-26 20:54:53] [INFO]  Baseline loaded ← registry_baseline.json
+[2026-04-26 20:54:58] [INFO]  Baseline created → registry_baseline.json
+[2026-04-26 20:55:03] [INFO]  ─── Autorun Detection ─────────────────────────────────
+[2026-04-26 20:55:03] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [SecurityHealth] = %windir%\system32\SecurityHealthSystray.exe
+[2026-04-26 20:55:03] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [RtkAudUService] = "C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_4dab0fd1fdeb2aa1\RtkAudUService64.exe" -background
+[2026-04-26 20:55:03] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Quick Heal Core UI] = "C:\Program Files\Quick Heal\Quick Heal Internet Security\strtupap.exe"
+[2026-04-26 20:55:03] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce: Autorun → [Delete Cached Update Binary] = C:\WINDOWS\system32\cmd.exe /q /c del /q "C:\Program Files\Microsoft OneDrive\Update\OneDriveSetup.exe"
+[2026-04-26 20:55:03] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce: Autorun → [Delete Cached Standalone Update Binary] = C:\WINDOWS\system32\cmd.exe /q /c del /q "C:\Program Files\Microsoft OneDrive\StandaloneUpdater\OneDriveSetup.exe"
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [OneDrive] = "C:\Program Files\Microsoft OneDrive\OneDrive.exe" /background
+[2026-04-26 20:55:03] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [uTorrent] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  /MINIMIZED  ← SUSPICIOUS PATH
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [EpicGamesLauncher] = "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent -launchcontext=boot
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Steam] = "D:\steam\steam.exe" -silent
+[2026-04-26 20:55:03] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ut] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  ← SUSPICIOUS PATH
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [BraveSoftware Update] = "C:\Users\doshi\AppData\Local\BraveSoftware\Update\1.3.361.151\BraveUpdateCore.exe"
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Client Authentication Agent] = "C:\Users\doshi\AppData\Local\Sophos\Client Authentication Agent\CAA.exe" -a
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Toolkit] = C:\Program Files (x86)\Toolkit\Toolkit.exe /WinStart
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Discord] = "C:\Users\doshi\AppData\Local\Discord\Update.exe" --processStart Discord.exe
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [NVIDIA Broadcast ] = C:\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NVIDIA Broadcast.exe --process-start-args "--launch-hidden"
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ApacheTomcatMonitor10.1_Tomcat10] = "C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin\Tomcat10w.exe" //MS//Tomcat10
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [MicrosoftEdgeAutoLaunch_ED3CAFEECB2E4BB20CF72B4856F759A5] = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+[2026-04-26 20:55:03] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [TestEntry] = C:\Windows\notepad.exe
+[2026-04-26 20:55:13] [INFO]  ─── Malware-Pattern Scan ───────────────────────────────
+[2026-04-26 20:55:13] [ALERT]  [MALWARE-PATTERN] HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon → Shell = 'explorer.exe'  (Shell replacement detected – possible hijack)
+[2026-04-26 20:58:44] [INFO]  Baseline loaded ← registry_baseline.json
+[2026-04-26 20:58:49] [INFO]  Baseline created → registry_baseline.json
+[2026-04-26 20:58:54] [INFO]  ─── Autorun Detection ─────────────────────────────────
+[2026-04-26 20:58:55] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [SecurityHealth] = %windir%\system32\SecurityHealthSystray.exe
+[2026-04-26 20:58:55] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [RtkAudUService] = "C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_4dab0fd1fdeb2aa1\RtkAudUService64.exe" -background
+[2026-04-26 20:58:55] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Quick Heal Core UI] = "C:\Program Files\Quick Heal\Quick Heal Internet Security\strtupap.exe"
+[2026-04-26 20:58:55] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce: Autorun → [Delete Cached Update Binary] = C:\WINDOWS\system32\cmd.exe /q /c del /q "C:\Program Files\Microsoft OneDrive\Update\OneDriveSetup.exe"
+[2026-04-26 20:58:55] [INFO]  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce: Autorun → [Delete Cached Standalone Update Binary] = C:\WINDOWS\system32\cmd.exe /q /c del /q "C:\Program Files\Microsoft OneDrive\StandaloneUpdater\OneDriveSetup.exe"
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [OneDrive] = "C:\Program Files\Microsoft OneDrive\OneDrive.exe" /background
+[2026-04-26 20:58:55] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [uTorrent] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  /MINIMIZED  ← SUSPICIOUS PATH
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [EpicGamesLauncher] = "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent -launchcontext=boot
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Steam] = "D:\steam\steam.exe" -silent
+[2026-04-26 20:58:55] [SUSPICIOUS]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ut] = "C:\Users\doshi\AppData\Roaming\uTorrent\uTorrent.exe"  ← SUSPICIOUS PATH
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [BraveSoftware Update] = "C:\Users\doshi\AppData\Local\BraveSoftware\Update\1.3.361.151\BraveUpdateCore.exe"
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Client Authentication Agent] = "C:\Users\doshi\AppData\Local\Sophos\Client Authentication Agent\CAA.exe" -a
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Toolkit] = C:\Program Files (x86)\Toolkit\Toolkit.exe /WinStart
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [Discord] = "C:\Users\doshi\AppData\Local\Discord\Update.exe" --processStart Discord.exe
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [NVIDIA Broadcast ] = C:\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NVIDIA Broadcast.exe --process-start-args "--launch-hidden"
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [ApacheTomcatMonitor10.1_Tomcat10] = "C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin\Tomcat10w.exe" //MS//Tomcat10
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [MicrosoftEdgeAutoLaunch_ED3CAFEECB2E4BB20CF72B4856F759A5] = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+[2026-04-26 20:58:55] [INFO]  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run: Autorun → [New Value #1] = 
+[2026-04-26 20:59:02] [INFO]  ─── Malware-Pattern Scan ───────────────────────────────
+[2026-04-26 20:59:02] [ALERT]  [MALWARE-PATTERN] HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon → Shell = 'explorer.exe'  (Shell replacement detected – possible hijack)
+[2026-04-26 21:00:38] [INFO]  ─── Integrity Check ───────────────────────────────────
+[2026-04-26 21:00:38] [ALERT]  Integrity check FAILED – 1 change(s) detected.
+[2026-04-26 21:00:38] [WARN]    [ADDED] HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\TestEntry  | old='' → new='C:\\Windows\\notepad.exe'
+[2026-04-26 21:00:38] [INFO]  Report saved → registry_report.csv  (1 record(s))
+[2026-04-26 21:00:51] [INFO]  Starting continuous monitor  |  interval=30s  |  cycles=3
+[2026-04-26 21:00:51] [INFO]  ── Scan cycle #1 ──────────────────────────────────────
+[2026-04-26 21:00:51] [WARN]    [ADDED] HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\TestEntry  old='' → new='C:\\Windows\\notepad.exe'
+[2026-04-26 21:01:21] [INFO]  ── Scan cycle #2 ──────────────────────────────────────
+[2026-04-26 21:01:21] [INFO]    No changes in this cycle.
+[2026-04-26 21:01:51] [INFO]  ── Scan cycle #3 ──────────────────────────────────────
+[2026-04-26 21:01:51] [INFO]    No changes in this cycle.
+[2026-04-26 21:01:51] [INFO]  Report saved → registry_report.csv  (1 record(s))
+[2026-04-26 21:01:56] [INFO]  Baseline SHA-256: 4d46c14135338c272707424e7700ac3488da12af5e375b2565c7a7a82654f82b
+[2026-04-26 21:02:04] [INFO]  Exiting. Goodbye.

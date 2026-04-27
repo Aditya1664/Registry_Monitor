@@ -1,0 +1,2 @@
+timestamp,key,type,name,old_value,new_value,malware_flag,alert_msg
+2026-04-26 21:00:51,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,ADDED,TestEntry,,C:\Windows\notepad.exe,False,
